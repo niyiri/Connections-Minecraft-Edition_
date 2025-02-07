@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.word-card {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.selected {
+    background-color: #ffffcc;
+    box-shadow: 0 0 5px yellow;
+}
+
+.category-input {
+    margin-top: 20px;
+    padding: 15px;
+    background: #eee;
+}
