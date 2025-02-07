@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Connections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Custom Connections</h1>
+        <div id="board"></div>
+        <div id="controls">
+            <button onclick="newGame()">New Game</button>
+            <button onclick="showAnswer()">Show Answer</button>
+            <div id="mistakes"></div>
+        </div>
+        <div id="category-input">
+            <h3>Add Custom Category</h3>
+            <input type="text" id="category-name" placeholder="Category name">
+            <input type="text" id="category-words" placeholder="Comma-separated words">
+            <button onclick="addCustomCategory()">Add Category</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
